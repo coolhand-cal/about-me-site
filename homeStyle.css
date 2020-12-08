@@ -10,6 +10,8 @@ body {
     width: 80%;
 }
 
+/* banner image at top of page */
+
 .banner-image{
     position: relative;
     justify-content: center;
@@ -29,6 +31,8 @@ main{
     margin-top: -20px;
 }
 
+/* links bar at top of page */
+
 header nav {
     position: absolute;
     bottom: -35px; 
@@ -42,7 +46,7 @@ head {
 
 }
 
-
+/* displays links side by side */
 
 header nav a:link  {
     width: 70px;
@@ -76,7 +80,7 @@ header nav a:active{
     background-color: #ffd043;
 }
 
-
+/* used for the top panel with rounded corners */
 body main .light-panel  {
     background-color: #a6a6a6;
     color: rgb(112, 63, 30); 
@@ -106,6 +110,7 @@ body main .light-panel  {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
 }
+/* dark panel w/o rounded bottom */
 
 body main .dark-panel{
     background-color: #737373;
@@ -113,6 +118,7 @@ body main .dark-panel{
     color:rgb(209, 166, 85);
 }
 
+/* dark panel with rounded bottom */
 body .dark-panel2{
     background-color: #737373;
     margin-top: -12px;
